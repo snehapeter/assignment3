@@ -5,28 +5,22 @@
     <meta name="description" content="Hello Consulting">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solutions Consulting Pvt. Ltd.</title>
-    <style>
-        #navigation-bar li{
-display: inline;
-list-style: none;
-        }
-        #navigation-bar ul
-        {
-          padding-inline-start: 0;
-        }
-    </style>
+    <link rel="stylesheet" href="css\normalize.css">
+    <link rel="stylesheet" href="css\style.css">  
 </head>
 
 <body>
-    <section id="navigation-bar">
-        <nav>
+    <header class="common_width">
+        <nav class="navbar">
             <ul>
-                <li> <a href="file:///C:/Users/suraj/Desktop/snehapeter.github/index.html">Home</a></li>
-                <li> <a href="file:///C:/Users/suraj/Desktop/snehapeter.github/portofolio.html">Portfolio</a></li>
-                <li><a href="file:///C:/Users/suraj/Desktop/snehapeter.github/contactpage.html">Contact</a></li>
+                <li><a href="index.html"><img src="images\logo.png" alt="logo" width="45" height="46"></a></li>
+                <li><a  href="index.html">Home</a></li>
+                <li><a class ="active" href="portofolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-        </nav>
-    </section>
+        </nav> 
+    </header>
+    <main>
     <h1>Hello Consulting Pvt. Ltd.</h1>
     <hr>
         <h2>Portofolio.</h2>
@@ -142,10 +136,11 @@ list-style: none;
                     
                    
            </table>
+
            
       
-     
-    </body> <hr>
+        </main>
+     <hr>
     <footer>
   <p>  
 © hello.com</p>
